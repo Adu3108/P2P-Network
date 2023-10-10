@@ -52,4 +52,11 @@ This project has been implemented in 5 phases which have been described below :-
 - If the file is not at the immediate neighbor, then a separate connection is used to get the file from the node.
 - If a new connection is created for transfer, it is closed after the transfer is complete and is not be used for searching files in future.
 - Much like before all downloaded files are listed in the “Downloaded” folder.
-  
+
+## Running the Code
+
+The **Testing** directory contains several testcases modelling different network topologies. In order to run the P2P Network on any phase, use the following command :-
+
+```bash
+bash run.sh <path-to-testcase-directory> <number-of-clients> <phase>
+```
