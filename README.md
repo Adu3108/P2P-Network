@@ -60,3 +60,7 @@ The **Testing** directory contains several testcases modelling different network
 ```bash
 bash run.sh <path-to-testcase-directory> <number-of-clients> <phase>
 ```
+
+## References
+
+[Beej's Guide](https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf)
