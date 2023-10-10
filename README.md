@@ -61,6 +61,12 @@ The **Testing** directory contains several testcases modelling different network
 bash run.sh <path-to-testcase-directory> <number-of-clients> <phase>
 ```
 
+After running the code, the directory can be cleaned using the following command :- 
+
+```bash
+make clean
+```
+
 ## References
 
 [Beej's Guide](https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf)
